@@ -21,6 +21,7 @@ double EXP (int x)
 }
 int main()
 {
+    cout<< "Enter the power of 'e'" <<endl;
     int x;
     cin>>x;
     cout<<setprecision(20)<<EXP(x) <<endl;
